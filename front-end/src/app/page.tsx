@@ -1,5 +1,6 @@
 "use client";
 import { API_URL } from "@/constants";
+import HomePage from "@/pages/HomePage";
 import { useEffect } from "react";
 
 export default function Home() {
@@ -15,5 +16,9 @@ export default function Home() {
   // useEffect(() => {
   //   fetchData();
   // }, []);
-  return <div>Hello</div>;
+  return (
+    <div>
+      <HomePage />
+    </div>
+  );
 }
